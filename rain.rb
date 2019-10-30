@@ -16,7 +16,7 @@ class Rain < Formula
   depends_on :arch => :x86_64
 
   def install
-    bin.install "rain-v#{version}_#{arch}/"
+    bin.install "rain-v#{version}_#{type}/"
   end
 
   test do
