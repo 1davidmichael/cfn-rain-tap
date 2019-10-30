@@ -11,11 +11,10 @@ class Rain < Formula
     sha256 'b3eb7308e806dbee3f5939d56f4c0ea1b1ef1100a3fddd8761b6272a9d2f806d'
   end
 
-  @@type = OS + "-amd64"
   depends_on :arch => :x86_64
 
   def install
-    bin.install "rain-v#{version}_#{@@type}/"
+    bin.install "rain-v#{version}_#{os}-amd64/"
   end
 
   test do
