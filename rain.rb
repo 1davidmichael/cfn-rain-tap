@@ -5,10 +5,10 @@ class Rain < Formula
   version '0.7.0'
   if OS.mac?
     url 'https://github.com/aws-cloudformation/rain/releases/download/v0.7.0/rain-v0.7.0_osx-amd64.zip'
-    sha256 '6b725245dec54d6f05e3f67e26c4e6818887f37226eef751165f155ec9db1e9f'
+    sha256 '09d098602400f08299c86a8795f36217a74d20eb7a65806a99d06dfb138fdc50'
   elsif OS.linux?
     url 'https://github.com/aws-cloudformation/rain/releases/download/v0.7.0/rain-v0.7.0_linux-amd64.zip'
-    sha256 '7d6b4ff5eb88622bd2c6c32d8483432a3f87dd78ea9cb0a5d60c6b7d1feca19b'
+    sha256 'b3eb7308e806dbee3f5939d56f4c0ea1b1ef1100a3fddd8761b6272a9d2f806d'
   end
 
   depends_on :arch => :x86_64
